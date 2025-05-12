@@ -20,3 +20,5 @@ WHERE country = 'USA';
 SELECT *  
 FROM Customers  
 WHERE country <> 'USA';
+
+-- WHERE NOT country = 'USA' is equivalent to country <> 'USA'
